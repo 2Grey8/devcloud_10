@@ -1,0 +1,30 @@
+.slider{
+  width: 192rem;
+
+  &__inner{
+    width: 192rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 18rem;
+  }
+
+  &__img{
+    display: block;
+
+    &_1{
+      width: 664px;
+      height: 400px;
+    }
+
+    &_2{
+      width: 587px;
+      height: 400px;
+    }
+
+    &_3{
+      width: 533px;
+      height: 400px;
+    }
+  }
+}
